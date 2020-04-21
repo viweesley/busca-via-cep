@@ -1,0 +1,24 @@
+{
+    "name": "viweesley/busca-via-cep",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley Vinicius",
+            "email": "viweesleyy9923@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"  
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Search" : "src/"
+        },
+        "psr-4": {
+            "viweesley\\BuscaViaCep\\" : "src/" 
+        }
+
+    }
+}
